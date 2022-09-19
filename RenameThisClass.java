@@ -10,12 +10,20 @@ public class RenameThisClass
     public static void main(String[] args) {
         int i=10;
         
-        float f=69f;
+        float f=2f;
         
-        int f=f+i;
+        f=f+i;
         
-        boolean flag = true;
+        boolean flag = true; 
         
-        System.out.println();
+        while (flag = true) {
+            System.out.print (false);
+        }
+        
+        System.out.println(i);
+        System.out.println(f);
+        
+        while (i<10)
+        System.out.println(i++);
     }
 }
